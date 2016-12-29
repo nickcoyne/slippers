@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/nickcoyne/slippers.svg)](https://travis-ci.org/nickcoyne/slippers)
+[![Coverage Status](http://img.shields.io/coveralls/nickcoyne/slippers.svg)](https://coveralls.io/r/nickcoyne/slippers)
+[![Inline docs](http://inch-ci.org/github/nickcoyne/slippers.svg)](http://inch-ci.org/github/nickcoyne/slippers)
+
 # Slippers
 
 Simple Elixir wrapper for the [10000ft API](https://github.com/10Kft/10kft-api).
