@@ -1,5 +1,5 @@
 defmodule Slippers.Client do
-  defstruct auth: nil, endpoint: "https://api.10000ft.com/api/v1/"
+  defstruct auth: nil, endpoint: Application.get_env(:slippers, :tenkft_endpoint) || "https://api.10000ft.com/api/v1/"
 
   @type auth :: %{access_token: binary}
   @type t :: %__MODULE__{auth: auth, endpoint: binary}

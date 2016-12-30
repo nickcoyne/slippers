@@ -25,9 +25,6 @@ defmodule Slippers.Mixfile do
     [applications: [:logger, :httpoison]]
   end
 
-  defp elixirc_paths(:test), do: ["lib", "test/support"]
-  defp elixirc_paths(_),     do: ["lib"]
-
   defp description do
     """
     Simple Elixir wrapper for the 10000ft API
@@ -51,7 +48,7 @@ defmodule Slippers.Mixfile do
       {:ex_doc, "~> 0.11", only: :docs},
       {:inch_ex, ">= 0.0.0", only: :docs},
       {:excoveralls, "~> 0.4", only: :test},
-      {:exvcr, "~> 0.6", only: :test},
+      {:exvcr, "~> 0.8", only: :test},
       {:meck, "~> 0.8", only: :test }
     ]
   end

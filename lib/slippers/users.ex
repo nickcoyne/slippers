@@ -22,5 +22,6 @@ defmodule Slippers.Users do
   @spec list(Client.t, [{atom, binary}] | []) :: Slippers.response
   def list(client, params \\ []) do
     get("users", client, params)
+    |> Slippers.Parser.parse_list
   end
 end
