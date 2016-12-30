@@ -9,6 +9,8 @@ config :exvcr, [
   response_headers_blacklist: ["Set-Cookie", "X-Request-Id"]
 ]
 
+config :slippers, tenkft_endpoint: "https://vnext-api.10000ft.com/api/v1/"
+
 if File.exists?("config/test.secret.exs") do
   import_config "test.secret.exs"
 end
