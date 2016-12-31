@@ -42,12 +42,12 @@ defmodule Slippers.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.8.0"},
-      {:poison, "~> 2.0"},
-      {:earmark, "~> 0.1", only: :docs},
-      {:ex_doc, "~> 0.11", only: :docs},
-      {:inch_ex, ">= 0.0.0", only: :docs},
-      {:excoveralls, "~> 0.4", only: :test},
+      {:httpoison, "~> 0.10.0"},
+      {:poison, "~> 3.0"},
+      {:earmark, "> 1.0.0", only: :docs},
+      {:ex_doc, "~> 0.14", only: :docs},
+      {:inch_ex, "~> 0.5", only: :docs},
+      {:excoveralls, "~> 0.5", only: :test},
       {:exvcr, "~> 0.8", only: :test},
       {:meck, "~> 0.8", only: :test }
     ]
