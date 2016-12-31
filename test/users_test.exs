@@ -6,8 +6,12 @@ defmodule Slippers.UsersTest do
 
   doctest Slippers.Users
 
-  @client Slippers.Client.new(%{access_token: Application.get_env(:slippers, :tenkft_api_token)})
-  @user_id Application.get_env(:slippers, :tenkft_user_id)
+  @client Slippers.Client.new(
+    %{access_token: Application.get_env(:slippers, :tenkft_api_token) ||
+      System.get_env("TENKFT_API_TOKEN")}
+  )
+  @user_id Application.get_env(:slippers, :tenkft_user_id) ||
+             System.get_env("TENKFT_USER_ID")
 
   setup_all do
     ExVCR.Config.cassette_library_dir("test/fixture/vcr_cassettes")
