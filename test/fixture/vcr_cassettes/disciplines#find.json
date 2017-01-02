@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "\"\"",
+      "headers": {
+        "Content-Type": "application/json",
+        "User-agent": "Slippers",
+        "auth": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://vnext-api.10000ft.com/api/v1/disciplines/103834"
+    },
+    "response": {
+      "body": "{\"id\":103834,\"value\":\"QA\"}\n",
+      "headers": {
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Mon, 02 Jan 2017 18:37:17 GMT",
+        "ETag": "\"ecba86a6309bd8c117a281dcc87523e7\"",
+        "Server": "Apache/2.4.7 (Ubuntu)",
+        "Status": "200 OK",
+        "X-Powered-By": "Phusion Passenger 4.0.58",
+        "X-Rack-Cache": "miss",
+        "X-Runtime": "0.017732",
+        "X-UA-Compatible": "IE=Edge,chrome=1",
+        "Content-Length": "27",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

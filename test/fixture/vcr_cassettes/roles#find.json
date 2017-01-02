@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "\"\"",
+      "headers": {
+        "Content-Type": "application/json",
+        "User-agent": "Slippers",
+        "auth": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://vnext-api.10000ft.com/api/v1/roles/103840"
+    },
+    "response": {
+      "body": "{\"id\":103840,\"value\":\"QA Analyst\"}\n",
+      "headers": {
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Mon, 02 Jan 2017 18:34:14 GMT",
+        "ETag": "\"e5fe22c391913124d60e847b6bdc265f\"",
+        "Server": "Apache/2.4.7 (Ubuntu)",
+        "Status": "200 OK",
+        "X-Powered-By": "Phusion Passenger 4.0.58",
+        "X-Rack-Cache": "miss",
+        "X-Runtime": "0.016959",
+        "X-UA-Compatible": "IE=Edge,chrome=1",
+        "Content-Length": "35",
+        "Connection": "keep-alive"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
