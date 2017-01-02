@@ -43,7 +43,7 @@ defmodule Slippers.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.10.0"},
-      {:poison, "~> 3.0"},
+      {:poison, ">= 2.0.0"},
       {:earmark, "> 1.0.0"},
       {:ex_doc, "~> 0.14"},
       {:inch_ex, "~> 0.5"},
