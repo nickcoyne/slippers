@@ -44,9 +44,9 @@ defmodule Slippers.Mixfile do
     [
       {:httpoison, "~> 0.10.0"},
       {:poison, "~> 3.0"},
-      {:earmark, "> 1.0.0", only: :docs},
-      {:ex_doc, "~> 0.14", only: :docs},
-      {:inch_ex, "~> 0.5", only: :docs},
+      {:earmark, "> 1.0.0"},
+      {:ex_doc, "~> 0.14"},
+      {:inch_ex, "~> 0.5"},
       {:excoveralls, "~> 0.5", only: :test},
       {:exvcr, "~> 0.8", only: :test},
       {:meck, "~> 0.8", only: :test }
@@ -57,7 +57,7 @@ defmodule Slippers.Mixfile do
     [
       maintainers: ["nickcoyne"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/100yrs/slippers"}
+      links: %{"GitHub" => "https://github.com/nickcoyne/slippers"}
     ]
   end
 
